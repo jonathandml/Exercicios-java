@@ -1,0 +1,7 @@
+package entities;
+
+public class Citizen {
+	private double salary;
+	private int age;
+	private int NumberOfChildren;
+}

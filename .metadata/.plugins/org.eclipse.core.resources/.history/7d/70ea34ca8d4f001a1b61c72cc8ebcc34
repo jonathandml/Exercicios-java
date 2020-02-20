@@ -1,0 +1,11 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Student {
+	
+	private String nome;
+	private Situation
+	private List<Double> notas = new ArrayList<>();
+}

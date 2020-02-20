@@ -1,0 +1,25 @@
+package application;
+
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner e = new Scanner(System.in);
+		System.out.println("Digite o caminho do arquivo de entrada: ");
+		String path = e.nextLine();
+
+		try (BufferedReader file = new BufferedReader(new FileReader(path))) {
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		e.close();
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Data;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		Data dataAtual = new Data();
+		System.out.println("entre com uma data: ");
+		System.out.print("Dia: ");
+		int dia = entrada.nextInt();
+		
+		
+		System.out.println(d.getDia() + "/" + d.getMes() + "/" + d.getAno());
+		System.out.println(d.diaDaSemana());
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package application;
+
+import entities.Data;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Data d = new Data(16,2,2020);
+		
+		System.out.println(d.getDia() + "/" + d.getMes() + "/" + d.getAno());
+		System.out.println(d.diaDaSemana());
+
+	}
+
+}

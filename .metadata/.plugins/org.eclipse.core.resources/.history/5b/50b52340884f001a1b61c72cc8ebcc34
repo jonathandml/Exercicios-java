@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o valor de x");
+		double x = entrada.nextDouble();
+		int n = 1;
+		double seno = 0;
+		int total = 0;
+		while (Math.sin(x) != seno) {
+			if(i % 2 == 0) {
+				seno -= calcXnSobreXfact(x, n);
+			}else {
+				seno += calcXnSobreXfact(x, n);
+			}
+			if(Math.sin(x) == seno) {
+				total = i;
+				break;
+			}
+			n += 2;
+		}
+		
+		System.out.printf("Math.sin(x) = %.4f\n",Math.sin(x));
+		System.out.printf("seno = %.4f\n",seno);
+		System.out.println(total);
+		
+		entrada.close();
+
+	}
+	
+	static double fatorial(double x) {
+		double fact = 1;
+		while(x > 0) {
+			fact *= x;
+			x--;
+		}
+		return fact;
+	}
+	
+	static double calcXnSobreXfact(double x, double n) {
+		return (Math.pow(x, n) / fatorial(n));
+	}
+
+}

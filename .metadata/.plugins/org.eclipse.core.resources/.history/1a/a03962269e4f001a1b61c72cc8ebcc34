@@ -1,0 +1,28 @@
+package services;
+
+import java.util.List;
+
+import entities.Citizen;
+
+public class CitizenService {
+	
+	public static double averageSalary(List<Citizen> list) {
+		double sum = 0.0;
+		for(Citizen c : list) {
+			sum += c.getSalary();
+		}
+		return sum / list.size();
+	}
+	
+	public static int averageNOfChildren(List<Citizen> list) {
+		double sum = 0;
+		for(Citizen c : list) {
+			sum += c.getNumberOfChildren();
+		}
+		return sum / list.size();
+	}
+	
+	public static double
+	
+	
+}

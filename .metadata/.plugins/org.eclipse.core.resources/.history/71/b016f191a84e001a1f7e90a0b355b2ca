@@ -1,0 +1,15 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		String a = "123456789";
+		
+		int n1 = Integer.parseInt(Character.toString(a.charAt(8)));
+		System.out.println(n1);
+		
+				
+		
+
+	}
+
+}

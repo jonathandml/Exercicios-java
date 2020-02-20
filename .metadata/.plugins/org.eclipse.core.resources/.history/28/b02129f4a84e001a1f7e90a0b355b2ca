@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String cpf = entrada.nextLine();
+		
+		int n1 = Integer.parseInt(Character.toString(a.charAt(8)));
+		System.out.println(n1);
+		
+				
+		
+
+	}
+
+}

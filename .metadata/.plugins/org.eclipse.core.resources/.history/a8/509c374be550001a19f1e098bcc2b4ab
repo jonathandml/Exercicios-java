@@ -1,0 +1,17 @@
+package entities;
+
+public class Aluno {
+	private String nome;
+	private int numeroDeMatricula;
+	private int cargaHoraria;
+	private String login;
+	
+	public Aluno(String nome, int numeroDeMatricula, int cargaHoraria) {
+		this.nome = nome;
+		this.numeroDeMatricula = numeroDeMatricula;
+		this.cargaHoraria = cargaHoraria;
+	}
+	
+	
+	
+}

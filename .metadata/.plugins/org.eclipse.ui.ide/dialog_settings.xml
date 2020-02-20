@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Projetos\java-ws\exercicios-sequencial"/>
+			<item value="C:\Projetos\java-ws\exercicios_intro_POO"/>
+			<item value="C:\Projetos\java-ws\exercicios_condicional"/>
+			<item value="C:\Projetos\java-ws\exercicio_polimorph1"/>
+			<item value="C:\Projetos\java-ws\exercicio_interface"/>
+			<item value="C:\Projetos\java-ws\exercicio_excecoes"/>
+			<item value="C:\Projetos\java-ws\exercicio_composicao"/>
+			<item value="C:\Projetos\java-ws\exercicio_arquivos"/>
+			<item value="C:\Projetos\java-ws\exercicio_abstract1"/>
+			<item value="C:\Projetos\java-ws\ex_vetor"/>
+			<item value="C:\Projetos\java-ws\ex_matrizes"/>
+			<item value="C:\Projetos\java-ws\ex_listas"/>
+			<item value="C:\Projetos\java-ws\ex_encapsulamento"/>
+		</list>
+	</section>
+</section>

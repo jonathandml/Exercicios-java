@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		String cpf;
+		do {
+			System.out.println("Digite o cpf");
+			cpf = entrada.nextLine();
+			if(cpf.length() != 9)
+				System.out.println("Favor digitar um valor válido de 9 digitos");
+			 
+		}while(cpf.length() != 9);
+		
+		int soma = 0;
+		int mult = cpf.length() + 1;
+		for (int i = 0; i < cpf.length(); i++) {
+			soma += Integer.parseInt(Character.toString(cpf.charAt(i))) * ;
+		}
+		System.out.println(soma);
+		
+		
+		
+		//int n1 = Integer.parseInt(Character.toString(a.charAt(8)));
+		entrada.close();
+		
+				
+		
+
+	}
+
+}

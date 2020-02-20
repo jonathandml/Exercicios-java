@@ -1,0 +1,15 @@
+package application;
+
+import entities.Data;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Data d = new Data();
+		
+		System.out.println(d.getDia() + "/" + d.getMes() + "/" + d.getAno());
+
+	}
+
+}

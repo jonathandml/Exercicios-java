@@ -1,0 +1,13 @@
+package application;
+
+import entities.Pessoa;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Pessoa p = new Pessoa("João da Silva","10110110110", 20,"Masculino");
+
+	}
+
+}
