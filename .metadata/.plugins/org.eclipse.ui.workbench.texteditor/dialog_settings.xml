@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=": double ="/>
+		<item key="selection" value="Test() "/>
 		<list key="findhistory">
+			<item value="() "/>
+			<item value="double valor"/>
+			<item value="public static double "/>
 			<item value="="/>
 			<item value="public static final double"/>
 			<item value="=;"/>
@@ -16,6 +19,9 @@
 			<item value=""/>
 		</list>
 		<list key="replacehistory">
+			<item value="Test() "/>
+			<item value=""/>
+			<item value="public void "/>
 			<item value=": double ="/>
 			<item value="+"/>
 			<item value=": double"/>

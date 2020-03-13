@@ -1,7 +1,0 @@
-package entities.enums;
-
-public enum Situation {
-	APROVADO 0,
-	REPROVADO 1,
-	EXAME 2
-}

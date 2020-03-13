@@ -1,0 +1,1 @@
+Este programa contem a solucao dos exercicios: 4,5 e 7
